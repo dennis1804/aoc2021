@@ -2,8 +2,7 @@ import utils
 
 
 def part_1():
-    f = utils.read_input_file(1)
-    lines = f.splitlines()
+    lines = utils.lines(1)
     last = lines[0]
     increment = 0
     for i in lines[1:]:
